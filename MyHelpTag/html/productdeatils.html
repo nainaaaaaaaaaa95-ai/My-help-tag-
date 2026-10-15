@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Carousel</title>
+    <link rel="stylesheet" href="/css/productdetailstyle.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <a href="home.html" class="nav-link">Home</a>
+        <a href="product.html" class="nav-link">Products</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="register.html" class="nav-link">Register</a>
+        <a href="login.html" class="nav-link">Log in</a>
+    </nav>
+
+    <div class="product-container">
+
+        <!-- Left: Carousel + Heading -->
+        <div class="carousel-section">
+            <h2 class="product-title">Helmet Blood Group Sticker</h2>
+            <div class="carousel">
+                <div class="main-image">
+                    <img src="/images/helmet-blood-group-sticker.png" alt="Product Image" id="current">
+                </div>
+                <div class="thumbnails">
+                    <img src="/images/helmet-blood-group-sticker-demo-profile2.jpg" alt="thumb1"
+                        onclick="changeImage(this)">
+                    <img src="/images/helmet-blood-group-sticker-features3.jpg" alt="thumb2"
+                        onclick="changeImage(this)">
+                    <img src="/images/helmet-blood-group-sticker-size4.jpg" alt="thumb3" onclick="changeImage(this)">
+                    <img src="/images/how-to-register-myhelptag5.jpg" alt="thumb4" onclick="changeImage(this)">
+                </div>
+            </div>
+        </div>
+
+        <!-- Right: Product Details -->
+        <div class="product-details">
+            <p class="price">₹299.00</p>
+
+            <label for="blood-group">Blood Group:</label>
+            <div class="options">
+                <button>A+</button>
+                <button>B+</button>
+                <button>O+</button>
+                <button>AB+</button>
+                <button>A-</button>
+                <button>B-</button>
+                <button>O-</button>
+                <button>AB-</button>
+            </div>
+
+            <div class="quantity">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+            </div>
+
+            <button class="add-cart">Add to Cart</button>
+
+            <ul class="features">
+                <li>✅ Free Delivery</li>
+                <li>✅ All Weather Proof</li>
+                <li>✅ No Batteries Required</li>
+            </ul>
+
+
+            <!-- Demo Tag Button -->
+            <button class="demo-btn">Click here to check demo tag</button>
+
+            <!-- Offer Banner -->
+            <div class="offer-banner">
+                ✨ Diwali Offer ✨ - Order above Rs.1499 and get free Bike Sticker worth Rs.699
+            </div>
+
+            <!-- Delivery Details Accordion -->
+            <div class="accordion">
+                <button class="accordion-header">
+                    Delivery Details <span class="arrow">▲</span>
+                </button>
+                <div class="accordion-body">
+                    <div class="delivery-item">
+                        <span>Metro Cities</span>
+                        <span>3–4 Days</span>
+                        <span class="free">Free</span>
+                    </div>
+                    <div class="delivery-item">
+                        <span>Rest India</span>
+                        <span>3–7 Days</span>
+                        <span class="free">Free</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Inside Package Accordion -->
+            <div class="accordion">
+                <button class="accordion-header">
+                    Inside Package <span class="arrow">▼</span>
+                </button>
+                <div class="accordion-body hidden">
+                    <p>👉 Helmet Blood Group Sticker</p>
+                    <p>👉 User Guide</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="description">
+        <div class="product-desc-info">
+  <div class="product-details">
+
+    <!-- Title -->
+    <h2>Product details</h2>
+
+    <!-- General Specs -->
+    <div class="section">
+      <h3>General specs</h3>
+      <div class="specs">
+        <div class="spec"><span>Model:</span> <span>1100</span></div>
+        <div class="spec"><span>Manufacturer:</span> <span>Myhelptag</span></div>
+        <div class="spec"><span>Finish:</span> <span>Matt</span></div>
+        <div class="spec"><span>Material:</span> <span>PVC Non Tearable</span></div>
+        <div class="spec"><span>Size:</span> <span>3 x 1.5 Inches</span></div>
+        <div class="spec"><span>Durability:</span> <span>All Weather</span></div>
+      </div>
+    </div>
+
+    <!-- Description -->
+    <div class="section">
+      <h3>Description</h3>
+      <p>
+        Myhelptag Helmet Blood Group Sticker is a durable PVC sticker designed to provide essential emergency information. 
+        Along with your blood group, it can hold crucial details such as emergency contact and medical information, which you enter after registration and login. 
+        In case of an emergency, anyone assisting you can scan the sticker to access this vital information, helping doctors provide timely care. 
+        Additionally, the person who scans the tag can share their location for accurate assistance.
+      </p>
+    </div>
+
+    <!-- Specifications -->
+    <div class="section">
+      <h3>Specifications</h3>
+      <ul>
+        <li>Displays blood group on your helmet for quick visibility.</li>
+        <li>Stores emergency contacts, medical details and much more.</li>
+        <li>Track location of the person who scans your sticker.</li>
+        <li>Get SMS and Email Notifications.</li>
+        <li>Tag can be used in wrong parking.</li>
+        <li>You can edit profile anytime.</li>
+        <li>For safety, can get notification without sharing number.</li>
+        <li>Tag can be disable/deactivate anytime.</li>
+        <li>Simple setup process.</li>
+        <li>No batteries or electronics required.</li>
+        <li>Durable PVC material ensures long-lasting use.</li>
+        <li>Material is UV, Water, Scratch, Dust resistant.</li>
+        <li>Made in (India) Pune and Bengaluru, No third party sharing.</li>
+      </ul>
+    </div>
+
+  </div>
+        </div>
+        <div class="extra-info">
+            <!-- Note -->
+            <div class="note">
+                <h4>Note</h4>
+                <p>
+                    Every tag includes a unique QR code, ID, and PIN. To activate it,
+                    simply link the tag to your profile after delivery.
+                </p>
+            </div>
+
+            <div class="container">
+
+                <!-- Reviews Section -->
+                <div class="reviews-card">
+                    <div class="reviews-header">
+                        <h2>Reviews</h2>
+                        <button class="contact-btn">Contact Us</button>
+                    </div>
+
+                    <div class="rating">
+                        <h1>4.9</h1>
+                        <div class="stars">★★★★★</div>
+                        <p>1325 reviews</p>
+                    </div>
+
+                    <div class="rating-bars">
+                        <div class="bar"><span>5</span>
+                            <div class="progress">
+                                <div class="fill" style="width:95%"></div>
+                            </div><span>1278</span>
+                        </div>
+                        <div class="bar"><span>4</span>
+                            <div class="progress">
+                                <div class="fill" style="width:40%"></div>
+                            </div><span>32</span>
+                        </div>
+                        <div class="bar"><span>3</span>
+                            <div class="progress">
+                                <div class="fill" style="width:15%"></div>
+                            </div><span>9</span>
+                        </div>
+                        <div class="bar"><span>2</span>
+                            <div class="progress">
+                                <div class="fill" style="width:10%"></div>
+                            </div><span>4</span>
+                        </div>
+                        <div class="bar"><span>1</span>
+                            <div class="progress">
+                                <div class="fill" style="width:5%"></div>
+                            </div><span>2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blood Groups Section -->
+                <div class="blood-groups">
+                    <h3>Available Blood Groups</h3>
+                    <ul>
+                        <li>A + Helmet Blood Group Sticker</li>
+                        <li>B + Helmet Blood Group Sticker</li>
+                        <li>O + Helmet Blood Group Sticker</li>
+                        <li>AB + Helmet Blood Group Sticker</li>
+                        <li>A - Helmet Blood Group Sticker</li>
+                        <li>B - Helmet Blood Group Sticker</li>
+                        <li>O - Helmet Blood Group Sticker</li>
+                        <li>AB - Helmet Blood Group Sticker</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Accordion Toggle
+        document.querySelectorAll(".accordion-header").forEach(header => {
+            header.addEventListener("click", () => {
+                const body = header.nextElementSibling;
+                body.classList.toggle("hidden");
+                const arrow = header.querySelector(".arrow");
+                arrow.textContent = body.classList.contains("hidden") ? "▼" : "▲";
+            });
+        });
+    </script>
+</body>
+</html>

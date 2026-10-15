@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MyHelpTag Product which speaks in your Emergency</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/homestyle.css" />
+</head>
+<body>
+  <!-- Top Navigation -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="/home.html">
+        <span class="brand-accent">My</span>Help<span class="brand-accent">Tag</span>
+      </a>
+
+      <nav class="nav">
+        <a href="/home.html" class="nav-link">Home</a>
+        <a href="/product.html" class="nav-link">Products</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+        <a href="/register.html" class="nav-link">Register</a>
+        <a href="/login.html" class="nav-link">Log in</a>
+        <div class="nav-more">
+          <button class="more-btn" aria-haspopup="true" aria-expanded="false">more ▾</button>
+          <div class="more-menu" role="menu">
+            <a href="/about.html" role="menuitem">About</a>
+            <a href="/support.html" role="menuitem">Support</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main class="hero">
+    <div class="container hero-grid">
+      <!-- Left Column -->
+      <section class="hero-left">
+
+
+        <h1 class="headline">
+          Product which speaks in your
+          <span class="emphasis">Emergency</span>
+        </h1>
+
+        <p class="tagline">
+          MyHelpTag aims to provide peace of mind by making sure that help is just a tag away,
+          especially when every second counts.
+        </p>
+
+        <div class="cta-row">
+          <a href="/product.html" class="btn btn-primary">Buy Products</a>
+          <a href="/demo.html" class="btn btn-ghost">Demo Tag</a>
+        </div>
+
+        <div class="social-proof">
+          <div class="avatars" aria-hidden="true">
+            <span class="avatar a1"></span>
+            <span class="avatar a2"></span>
+            <span class="avatar a3"></span>
+          </div>
+          <p class="proof-text">securing <strong>1,50,000+ </strong>lives</p>
+        </div>
+      </section>
+
+      <!-- Right Column -->
+      <aside class="access-card" aria-label="First Responder Access">
+        <h2 class="card-title">🚨 First Responder <span>Access</span></h2>
+
+        <form class="card-form" action="#" method="post">
+          <label class="field">
+            <span class="label">Tag ID</span>
+            <input type="text" name="tag_id" placeholder="Enter Tag ID" required />
+          </label>
+
+          <label class="field">
+            <span class="label">Tag PIN</span>
+            <input type="password" name="tag_pin" placeholder="Enter Tag PIN" required />
+          </label>
+
+          <div class="field">
+            <span class="label">ID#</span>
+            <input type="text" name="id_number" placeholder="Optional" />
+          </div>
+
+          <button class="btn btn-primary btn-block" type="submit">View Tag</button>
+        </form>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <button class="feedback">Feedback</button>
+    </div>
+  </footer>
+
+  <!-- tiny no-JS dropdown (CSS only). If you want JS later, you can add it -->
+</body>
+</html>

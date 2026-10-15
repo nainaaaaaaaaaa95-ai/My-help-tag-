@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.nav {
+  display: flex;
+  justify-content: flex-end;  /* moves links to right side */
+  align-items: center;
+  background-color: #333;
+  padding: 3px 239px;
+  gap: 120px;
+  background: rgba(10,14,20,0.6);
+}
+
+/* Navbar links */
+.nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background 0.3s;
+}
+
+/* Hover effect */
+.nav a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Active page highlight */
+.nav a.active {
+  background-color: #04AA6D;
+  border-radius: 5px;
+}
+
+/* Global */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #0e1117;
+  color: #fff;
+  
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Container */
+.form-container {
+  max-width: 400px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form-container h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-container h1 span {
+  font-size: 1.5rem;
+}
+
+.subtitle {
+  color: #aaa;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+}
+
+/* Inputs */
+form input {
+  width: 100%;
+  padding: 0.9rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  background: transparent;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+form input::placeholder {
+  color: #888;
+}
+
+.password-field {
+  position: relative;
+}
+
+.password-field i {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  cursor: pointer;
+}
+
+/* Buttons */
+.btn-login {
+  width: 100%;
+  padding: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(90deg, #6a11cb, #ff4b2b);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.btn-login:hover {
+  opacity: 0.9;
+}
+
+.forgot-link {
+  display: block;
+  margin-top: 1rem;
+  color: #5d9bff;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}
+
+.divider {
+  height: 1px;
+  background: #333;
+  margin: 2rem 0 1rem;
+}
+
+.signup-text {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn-register {
+  width: 100%;
+  padding: 0.9rem;
+  background: transparent;
+  border: 1px solid #333;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.btn-register i {
+  margin-right: 8px;
+}
+
+.btn-register:hover {
+  background: #1a1f27;
+}

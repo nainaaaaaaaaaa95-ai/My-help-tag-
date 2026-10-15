@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+  <link rel="stylesheet" href="../css/login.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <div style="display: block;">
+    <nav class="nav">
+      <a href="home.html" class="nav-link">Home</a>
+      <a href="product.html" class="nav-link">Products</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="login.html".html" class="nav-link">Register</a>
+      <a href="register.html" class="nav-link">Log in</a>
+    </nav>
+  </div>
+  <div style="    display: flex;
+    justify-content: center;">
+    <div class="form-container">
+      <h1>Log in <span>👋</span></h1>
+      <p class="subtitle">Sign in to manage your tags</p>
+
+      <form>
+        <input type="email" placeholder="Email" required>
+        <div class="password-field">
+          <input type="password" placeholder="Password" required>
+          <i class="fa-regular fa-eye"></i>
+        </div>
+
+        <button type="submit" class="btn-login">Sign in</button>
+      </form>
+
+      <a href="#" class="forgot-link">Forgot your password?</a>
+
+      <div class="divider"></div>
+      <p class="signup-text">Don't have an account ?</p>
+
+      <button onclick="location.href='register.html'" class="btn-register" onclick="location.href='/html/register.html'">
+        <i class="fa fa-pen"></i> Register
+      </button>
+    </div>
+  </div>
+</body>
+</html>
